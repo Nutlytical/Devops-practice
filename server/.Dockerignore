@@ -1,0 +1,10 @@
+node_modules
+dist
+
+Dockerfile
+.Dockerignore
+
+__tests__
+jest.config.js
+
+.env
