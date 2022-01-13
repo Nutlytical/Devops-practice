@@ -1,0 +1,36 @@
+.users_container {
+  width: 320px;
+  margin: 8px auto 0 auto;
+}
+
+.user_container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.user-container:hover {
+  border-left: 4px solid #000;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user__img {
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.user__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.user__content > span:first-child {
+  font-size: 24px;
+}

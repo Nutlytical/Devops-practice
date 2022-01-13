@@ -1,0 +1,22 @@
+.button_group {
+  width: 80px;
+  margin: 8px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 16px;
+  font-size: 30px;
+  color: #fff;
+  background: #000;
+  margin: 8px;
+  border: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.button:nth-child(2) {
+  color: #000;
+  background: #fff;
+}
