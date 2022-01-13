@@ -4,6 +4,7 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile
+    image: nutlytical/devops_practice_client
     container_name: client
     ports:
       - "3000:3000"
@@ -11,6 +12,7 @@ services:
     build:
       context: ./server
       dockerfile: Dockerfile
+    image: nutlytical/devops_practice_server
     container_name: server
     ports:
       - "5000:5000"

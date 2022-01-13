@@ -18,7 +18,7 @@ export default function User({ user }: Props) {
           <img
             className={styles.user__img}
             src={user.picture.thumbnail}
-            alt="user-image"
+            alt="user"
           />
           <div className={styles.user__content}>
             <span>

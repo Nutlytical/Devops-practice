@@ -12,15 +12,19 @@ describe("header renders with correct text", () => {
   });
 
   it("should have title", () => {
-    const title = screen.getByText(/In a galaxy far far away/i);
+    const title = screen.getByRole("heading", {
+      name: /in a galaxy far far away/i,
+    });
 
     expect(title).toBeInTheDocument();
   });
 
   it("should have subtitle", () => {
-    const title = screen.getByText(/Start editing to see some magic happen!/i);
+    const subtitle = screen.getByText(
+      /start editing to see some magic happen/i
+    );
 
-    expect(title).toBeInTheDocument();
+    expect(subtitle).toBeInTheDocument();
   });
 
   // test("should fetch users", () => {
