@@ -7,11 +7,6 @@ metadata:
 spec:
   rules:
     - host: devops-practice.com
-      # run => kubectl get pods --namespace=ingress-nginx
-      # if => No resources found in ingress-nginx namespace
-      # run => kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.0/deploy/static/provider/cloud/deploy.yaml
-      # go to => C:\Windows\System32\Drivers\etc\hosts or sudo vim /etc/hosts
-      # add => 127.0.0.1 devops-practice.com
       http:
         paths:
           - path: /?(.*)
