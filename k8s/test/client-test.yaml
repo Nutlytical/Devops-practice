@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: nutlytical/devops_practice_client
+          image: nutlytical/devops_practice_client:test
           resources:
             limits:
               memory: 512Mi
