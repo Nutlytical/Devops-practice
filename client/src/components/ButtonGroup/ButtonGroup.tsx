@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./ButtonGroup.module.css";
 
 interface Props {
-  handleClick: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {};
+  handleClick: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 }
 
 export default function ButtonGroup({ handleClick }: Props) {

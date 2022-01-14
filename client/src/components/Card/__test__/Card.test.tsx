@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 
 import Card from "../Card";
-import { mockUser } from "../../../__mocks__/mockData";
+import mockUser from "../../../__mocks__/user";
 
 const mockSetSelectedUser = jest.fn();
 

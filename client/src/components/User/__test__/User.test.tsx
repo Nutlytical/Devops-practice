@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 
 import User from "../User";
-import { mockUser } from "../../../__mocks__/mockData";
+import mockUser from "../../../__mocks__/user";
 
 describe("User", () => {
   beforeEach(() => {

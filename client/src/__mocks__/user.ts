@@ -1,4 +1,4 @@
-export const mockUser = {
+export default {
   gender: "female",
   name: {
     title: "Miss",
